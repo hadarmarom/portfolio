@@ -1,5 +1,3 @@
-import Minesweeper from "../imgs/minesweeper.gif"
-import Memegenerator from "../imgs/memegenerator.gif"
 import taskMan from "../imgs/taskMan.gif"
 // import Appsus from "../imgs/appsus.gif"
 import Jukify from "../imgs/jukify.gif"
