@@ -13,14 +13,9 @@ const Contact = () => {
 
     const onSubmit = (e) => {
         e.preventDefault();
-        send(
-            'service_adgd1mg',
-            'template_c2eygue',
-            toSend,
-            'user_Tjc2AmjzXOjBhNsdJuIut'
-        )
+        send('service_yvcqel2', 'template_yctjm0r', toSend, 'user_9zZUvrQnnjnUqXr9zsjEE')
             .then((response) => {
-                console.log('SUCCESS!', response.status, response.text);
+                // console.log('SUCCESS!', response.status, response.text);
                 setMsg(`Sent! I'll get back to you ASAP`)
                 setTimeout(() => { setMsg('') }, 3000)
                 setToSend({

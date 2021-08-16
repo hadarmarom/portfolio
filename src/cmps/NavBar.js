@@ -1,5 +1,5 @@
 import React from "react"
-import Logo from "../imgs/logo.png"
+import Logo from "../imgs/logo5.png"
 import { NavHashLink } from 'react-router-hash-link';
 import $ from "jquery";
 

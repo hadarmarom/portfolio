@@ -25,6 +25,7 @@ html {
 /*************************** NAVBAR ***************************/
 
 .logo {
+  padding: 0;
   max-height: 3.5rem;
 }
 
@@ -41,15 +42,15 @@ nav {
 }
 
 @media screen and (max-width:991px) {
-  nav .navbar-collapse{
+  nav .navbar-collapse {
     position: absolute;
     top: 5rem !important;
     right: 0;
   }
-
 }
 
-nav .container{
+nav .container {
+  padding-left: 0;
   height: 5rem;
   position: relative;
 }
@@ -57,7 +58,7 @@ nav .container{
 nav .nav-link {
   background-color: var(--primary-dark);
   padding-right: 10px !important;
-  padding-left: 10px !important;
+  padding-left: 0 !important;
   text-align: end;
 }
 
@@ -85,6 +86,7 @@ nav .nav-link {
 }
 
 /*************************** HERO ***************************/
+
 .hero-container {
   background-color: #2E394B;
   margin-top: 5rem;
@@ -114,7 +116,7 @@ nav .nav-link {
 }
 
 @media screen and (max-width: 360px) {
-  .main-info{
+  .main-info {
     justify-content: space-between;
     height: 85vh !important;
   }
@@ -227,6 +229,7 @@ nav .nav-link {
   scroll-margin-top: 5rem;
   cursor: default;
 }
+
 .about-container p, .about-container .typed-txt {
   color: var(--primary-light)
 }
@@ -234,14 +237,15 @@ nav .nav-link {
 .about-container .par {
   margin-top: 1rem;
 }
-.about-content{
+
+.about-content {
   padding: 12px;
 }
 
 /*-------------------SPECIALTIES-------------------- */
 
 .specialties-container {
-  overflow-x:hidden !important;
+  overflow-x: hidden !important;
   background-color: var(--primary-dark);
   z-index: 5;
   display: flex;
@@ -286,7 +290,6 @@ nav .nav-link {
   color: var(--primary-light);
   margin-bottom: 2.25rem;
   border-bottom: 3px solid var(--primary-orange);
-  
 }
 
 .proj {
@@ -298,7 +301,7 @@ nav .nav-link {
   align-content: center;
   justify-items: center;
   text-transform: uppercase;
-  max-height: calc(90vh - 5rem);
+  max-height: calc(90vh);
 }
 
 .lowercase {
@@ -345,18 +348,20 @@ nav .nav-link {
 
 /*-------------------CONTACT-------------------- */
 
-#contact{
+#contact {
   z-index: 5 !important;
   background-color: var(--primary-dark) !important;
   scroll-margin-top: 5rem;
   padding-bottom: 2.25rem;
   color: var(--primary-light);
 }
-#contact h4{
+
+#contact h4 {
   text-transform: uppercase;
   text-align: center;
   /* margin-bottom: 20px; */
 }
+
 .contact-container {
   display: flex;
   justify-content: space-around;
@@ -426,7 +431,8 @@ footer .text-center {
   text-decoration: none;
   color: white;
 }
-.contact-details a:hover{
+
+.contact-details a:hover {
   text-decoration: underline;
 }
 
