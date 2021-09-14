@@ -23,13 +23,20 @@ const Footer = () => {
                         <p>+972-(0)58-644-2004</p>
                     </div>
                     <div>
-                        {/* <a
+                        <a
                             className="btn btn-primary m-1"
                             style={{ backgroundColor: '#333333' }}
                             target="_blank" rel="noreferrer"
                             onClick={() => download()}
                             role="button"
-                        ><FontAwesomeIcon icon={faFilePdf} /> My CV</a> */}
+                        ><FontAwesomeIcon icon={faFilePdf} /> My CV</a>
+                        <a
+                            className="btn btn-primary m-1"
+                            style={{ backgroundColor: '#333333' }}
+                            target="_blank" rel="noreferrer"
+                            onClick={() => download()}
+                            role="button"
+                        ><FontAwesomeIcon icon={faFilePdf} /> My CV</a>
                         <a
                             className="btn btn-primary m-1"
                             style={{ backgroundColor: '#333333' }}
