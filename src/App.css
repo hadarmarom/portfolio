@@ -113,6 +113,9 @@ nav .nav-link {
   .main-info {
     top: 5rem;
   }
+  nav .nav-link {
+    margin-left: 12px;
+  }
 }
 
 @media screen and (max-width: 360px) {

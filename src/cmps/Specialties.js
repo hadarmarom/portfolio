@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 //logos
 import jsLogo from '../imgs/js.png'
+import tsLogo from '../imgs/typeScript.png'
 import htmlLogo from '../imgs/html.png'
 import cssLogo from '../imgs/css.png'
 import vueLogo from '../imgs/vue.png'
@@ -33,6 +34,12 @@ const Specialties = () => {
                     <img className="card-img-top" src={jsLogo} alt="javascript" />
                     <div className="card-body">
                         <p className="card-text">JavaScript</p>
+                    </div>
+                </div>
+                <div className="card" data-aos="fade-right" data-aos-duration="3000">
+                    <img className="card-img-top" src={tsLogo} alt="typescript" />
+                    <div className="card-body">
+                        <p className="card-text">TypeScript</p>
                     </div>
                 </div>
                 <div className="card" data-aos="fade-right" data-aos-duration="3000">
