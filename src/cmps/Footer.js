@@ -30,6 +30,7 @@ const Footer = () => {
                             onClick={() => download()}
                             role="button"
                         ><FontAwesomeIcon icon={faFilePdf} /> My CV</a>
+                        
                         <a
                             className="btn btn-primary m-1"
                             style={{ backgroundColor: '#333333' }}
